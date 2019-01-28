@@ -28,7 +28,16 @@ public class AddressBook {
         }
     }
 
-    public void addNewEntry(){
+    public void searchByName(String userInputName){
+
+        for(int i = 0; i < addressBook.length; i++){
+            if(addressBook[i] != null && addressBook[i].name.equals(userInputName)){
+                addressBook[i].print();
+                break;
+            } else if (i == addressBook.length - 1){
+                System.out.println("An entry with the name " + userInputName + " was not found.");
+            }
+        }
 
     }
 

@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f857266-817c-4a05-a02a-bdfb0bac2e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/EntryCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AddressBook/com/company/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddressBook/com/company/AddressBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AddressBook/com/company/AddressBookDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddressBook/com/company/AddressBookDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AddressBook/com/company/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddressBook/com/company/Entry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AddressBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AddressBookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AddressBookDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Entry.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,19 +14,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/AddressBookDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="345">
+              <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/EntryCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="405">
               <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
             </state>
           </provider>
@@ -59,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="525">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -81,10 +75,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/UserMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AddressBook.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AddressBookDemo.java" />
         <option value="$PROJECT_DIR$/src/com/company/Entry.java" />
         <option value="$PROJECT_DIR$/src/com/company/EntryCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AddressBook.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AddressBookDemo.java" />
       </list>
     </option>
   </component>
@@ -129,7 +123,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548701114278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548702271358" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -177,7 +171,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3584000" />
+    <option name="totallyTimeSpent" value="4720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -219,20 +213,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/AddressBookDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Entry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -249,8 +229,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EntryCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="405">
           <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AddressBookDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
         </state>
       </provider>
     </entry>
