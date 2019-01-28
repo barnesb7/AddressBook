@@ -18,12 +18,27 @@ public class AddressBook {
         }
     }
 
+    public void deleteEntry(String name){
+        for (int i = 0; i < addressBook.length; i++){
+            if (addressBook[i] != null && addressBook[i].name.equals(name)){
+                addressBook[i] = null;
+                System.out.println("The entry with the name " + name + " has been successfully deleted.");
+                break;
+            } else if (i == addressBook.length -1){
+                System.out.println("Sorry, but an entry with name - " + name + " - was not found.");
+            }
+
+        }
+    }
+
 
     public void printAllEntries(){
         for (int i = 0; i < addressBook.length; i++){
 
            if(addressBook[i] != null){
                addressBook[i].print();
+           } else if (i == addressBook.length -1){
+               System.out.println("Your address book is empty");
            }
         }
     }

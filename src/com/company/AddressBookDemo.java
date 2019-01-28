@@ -36,8 +36,12 @@ public class AddressBookDemo {
 
              } else if (userInput.equals("5")) {
                  // delete an entry
+                 System.out.println("What is the name of the entry you would like to delete?");
+                 userInput = scanner.nextLine();
+                 addressBook.deleteEntry(userInput);
              } else if (userInput.equals("6")) {
-                  shouldContinue = false;
+                 //exit
+                 shouldContinue = false;
                  System.out.println("Thank you! Goodbye");
              } else {
                  System.out.println("Please choose an option from below");
