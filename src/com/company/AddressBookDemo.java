@@ -25,12 +25,16 @@ public class AddressBookDemo {
                  Entry newEntry = entryCreator.create();
                  addressBook.addEntry(newEntry);
              } else if (userInput.equals("3")) {
-
+                //search by name
                  System.out.println("Please enter the name");
                  userInput = scanner.nextLine();
                  addressBook.searchByName(userInput);
              } else if (userInput.equals("4")) {
                  // search by phoneNumber
+                 System.out.println("Please enter the phone number");
+                 userInput = scanner.nextLine();
+                 addressBook.searchByPhoneNumber(userInput);
+
              } else if (userInput.equals("5")) {
                  // delete an entry
              } else {

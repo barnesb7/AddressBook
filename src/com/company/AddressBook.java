@@ -29,17 +29,35 @@ public class AddressBook {
     }
 
     public void searchByName(String userInputName){
+        searchAdressBookLogic(userInputName, "name");
+    }
+
+    public void searchByPhoneNumber(String userInputPhoneNumber){
+        searchAdressBookLogic(userInputPhoneNumber, "phone");
+    }
+
+
+    private void searchAdressBookLogic(String input, String typeOfSearch){
 
         for(int i = 0; i < addressBook.length; i++){
-            if(addressBook[i] != null && addressBook[i].name.equals(userInputName)){
+
+            String switchPropertyBySearchType = "";
+
+            if(addressBook[i] != null) {
+                if (typeOfSearch.equals("phone")) {
+                    switchPropertyBySearchType = addressBook[i].getPhoneNumber();
+                } else {
+                    switchPropertyBySearchType = addressBook[i].getName();
+                }
+            }
+
+            if(addressBook[i] != null && switchPropertyBySearchType.equals(input)){
                 addressBook[i].print();
                 break;
             } else if (i == addressBook.length - 1){
-                System.out.println("An entry with the name " + userInputName + " was not found.");
+                System.out.println("An entry with " + input + " was not found.");
             }
         }
-
     }
-
 
 }
