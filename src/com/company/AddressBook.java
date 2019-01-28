@@ -2,7 +2,7 @@ package com.company;
 
 public class AddressBook {
 
-    Entry[] addressBook = new Entry[10];
+    Entry[] addressBook = new Entry[5];
 
     public void addEntry(Entry entry){
 
@@ -26,6 +26,10 @@ public class AddressBook {
                addressBook[i].print();
            }
         }
+    }
+
+    public void addNewEntry(){
+
     }
 
 

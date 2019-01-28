@@ -10,7 +10,7 @@ public class Entry {
     String birthday;
 
 
-    private Entry(String name, String address, String phoneNumber, String birthday){
+    public Entry(String name, String address, String phoneNumber, String birthday){
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
@@ -18,6 +18,6 @@ public class Entry {
     }
 
     public void print(){
-        System.out.println( name + COMMA_SPACE + address + COMMA_SPACE + phoneNumber + COMMA_SPACE + birthday);
+        System.out.println( "<---" + name + COMMA_SPACE + address + COMMA_SPACE + phoneNumber + COMMA_SPACE + birthday + "--->");
     }
 }
