@@ -17,7 +17,6 @@ public class AddressBookDemo {
              userMenu.showOptions();
              String userInput = scanner.nextLine();
 
-
              if (userInput.equals("1")) {
                  addressBook.printAllEntries();
              } else if (userInput.equals("2")) {
@@ -37,6 +36,9 @@ public class AddressBookDemo {
 
              } else if (userInput.equals("5")) {
                  // delete an entry
+             } else if (userInput.equals("6")) {
+                  shouldContinue = false;
+                 System.out.println("Thank you! Goodbye");
              } else {
                  System.out.println("Please choose an option from below");
              }

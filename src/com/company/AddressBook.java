@@ -29,15 +29,15 @@ public class AddressBook {
     }
 
     public void searchByName(String userInputName){
-        searchAdressBookLogic(userInputName, "name");
+        searchAddressBookHelper(userInputName, "name");
     }
 
     public void searchByPhoneNumber(String userInputPhoneNumber){
-        searchAdressBookLogic(userInputPhoneNumber, "phone");
+        searchAddressBookHelper(userInputPhoneNumber, "phone");
     }
 
 
-    private void searchAdressBookLogic(String input, String typeOfSearch){
+    private void searchAddressBookHelper(String input, String typeOfSearch){
 
         for(int i = 0; i < addressBook.length; i++){
 
